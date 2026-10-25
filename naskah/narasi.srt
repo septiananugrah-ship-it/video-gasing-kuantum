@@ -1,0 +1,763 @@
+1
+00:00:01,800 --> 00:00:06,674
+Di dapur, sebuah oven microwave memanaskan secangkir teh.
+
+2
+00:00:06,674 --> 00:00:15,232
+Di gurun Atacama, antena-antena raksasa menangkap gelombang dari awan gas yang jaraknya ribuan tahun cahaya.
+
+3
+00:00:15,232 --> 00:00:18,674
+Keduanya bekerja dengan gelombang mikro.
+
+4
+00:00:18,674 --> 00:00:24,899
+Dan keduanya sering dijelaskan dengan kalimat yang sama: molekul yang berputar.
+
+5
+00:00:24,899 --> 00:00:30,805
+Tapi hanya satu di antaranya yang benar-benar mendengarkan putaran kuantum.
+
+6
+00:00:30,805 --> 00:00:35,412
+Yang satunya lagi, ternyata, sering disalahpahami.
+
+7
+00:00:35,412 --> 00:00:39,031
+Untuk tahu mana yang mana, kita perlu bertanya:
+
+8
+00:00:39,031 --> 00:00:45,880
+bagaimana sebuah molekul berputar, jika aturannya ditulis oleh mekanika kuantum?
+
+9
+00:00:55,867 --> 00:01:01,372
+Video ini membahas kimia kuantum gerak rotasi dalam tiga bagian.
+
+10
+00:01:01,372 --> 00:01:08,619
+Bagian pertama, prinsip dan teori dasarnya: dari partikel pada cincin hingga rotor tiga dimensi.
+
+11
+00:01:08,619 --> 00:01:16,809
+Bagian kedua, implementasinya dalam kimia: membaca panjang ikatan dan isotop dari spektrum gelombang mikro.
+
+12
+00:01:16,809 --> 00:01:27,308
+Dan bagian ketiga, penerapannya di dunia industri: dari oven, satelit cuaca, teleskop radio, sampai laboratorium farmasi.
+
+13
+00:01:29,900 --> 00:01:32,009
+Bayangkan sebuah gasing.
+
+14
+00:01:32,009 --> 00:01:37,526
+Gasing yang ringan mudah diputar, gasing yang berat dan lebar lebih malas berputar.
+
+15
+00:01:37,526 --> 00:01:43,243
+Kemalasan berputar ini disebut momen inersia, dan diberi lambang I.
+
+16
+00:01:43,243 --> 00:01:51,036
+Untuk satu massa yang berputar pada jarak r dari poros, momen inersianya adalah m kali r kuadrat.
+
+17
+00:01:51,036 --> 00:01:57,030
+Sekarang ganti gasing itu dengan molekul dua atom, misalnya karbon monoksida.
+
+18
+00:01:57,030 --> 00:02:03,868
+Molekul ini tidak berputar di sekitar salah satu atom, melainkan di sekitar pusat massanya.
+
+19
+00:02:03,868 --> 00:02:10,428
+Atom yang lebih berat berada lebih dekat ke pusat, atom yang lebih ringan berayun lebih jauh.
+
+20
+00:02:10,428 --> 00:02:17,775
+Hasilnya ringkas: momen inersia sama dengan massa tereduksi mu, dikali kuadrat panjang ikatan.
+
+21
+00:02:17,775 --> 00:02:23,869
+Massa tereduksi adalah hasil kali kedua massa, dibagi jumlah keduanya.
+
+22
+00:02:23,869 --> 00:02:29,475
+Dalam fisika klasik, gasing ini boleh berputar dengan energi berapa saja.
+
+23
+00:02:29,475 --> 00:02:31,418
+Molekul tidak.
+
+24
+00:02:34,033 --> 00:02:41,091
+Mari mulai dari model paling sederhana: sebuah partikel yang hanya boleh bergerak pada cincin.
+
+25
+00:02:41,091 --> 00:02:46,808
+Jari-jarinya tetap, dan posisinya cukup dinyatakan dengan satu sudut, phi.
+
+26
+00:02:46,808 --> 00:02:53,934
+Menurut mekanika kuantum, partikel ini digambarkan oleh fungsi gelombang yang melingkari cincin.
+
+27
+00:02:53,934 --> 00:02:59,917
+Setelah berkeliling satu putaran penuh, gelombang itu kembali ke titik yang sama.
+
+28
+00:02:59,917 --> 00:03:04,391
+Maka nilainya harus tersambung mulus dengan dirinya sendiri.
+
+29
+00:03:04,391 --> 00:03:10,485
+Jika tidak, gelombang akan bertabrakan dengan ekornya sendiri dan saling menghapus.
+
+30
+00:03:10,485 --> 00:03:17,832
+Syarat ini disebut kondisi batas periodik: psi pada phi tambah dua pi sama dengan psi pada phi.
+
+31
+00:03:17,832 --> 00:03:25,601
+Hanya gelombang dengan jumlah panjang gelombang bulat yang lolos: nol, satu, dua, tiga, dan seterusnya.
+
+32
+00:03:25,601 --> 00:03:30,174
+Bilangan bulat ini kita sebut q, bilangan kuantum cincin.
+
+33
+00:03:30,174 --> 00:03:37,990
+Dari persamaan Schrödinger, energinya menjadi q kuadrat, dikali h bar kuadrat, dibagi dua I.
+
+34
+00:03:37,990 --> 00:03:43,152
+Energi rotasi tidak lagi kontinu. Ia terkuantisasi.
+
+35
+00:03:45,767 --> 00:03:48,908
+Bilangan q boleh positif atau negatif.
+
+36
+00:03:48,908 --> 00:03:57,121
+Tandanya menunjukkan arah putaran: berlawanan arah jarum jam, atau searah jarum jam, dilihat dari atas.
+
+37
+00:03:57,121 --> 00:04:02,580
+Besarnya menentukan momentum sudut: L z sama dengan q kali h bar.
+
+38
+00:04:02,580 --> 00:04:08,197
+Momentum sudut pun terkuantisasi, selalu kelipatan bulat dari h bar.
+
+39
+00:04:08,197 --> 00:04:15,124
+Karena energi bergantung pada q kuadrat, putaran ke kiri dan ke kanan punya energi yang sama.
+
+40
+00:04:15,124 --> 00:04:20,663
+Setiap tingkat, kecuali q sama dengan nol, berdegenerasi dua.
+
+41
+00:04:20,663 --> 00:04:27,878
+Jika keduanya dicampur dengan bobot sama, terbentuk gelombang berdiri dengan simpul yang diam di tempat.
+
+42
+00:04:27,878 --> 00:04:36,568
+Energinya tetap pasti, tetapi arah putarannya kini tidak pasti: separuh peluang ke kiri, separuh ke kanan.
+
+43
+00:04:36,568 --> 00:04:41,916
+Satu hal lagi yang mengejutkan: keadaan q sama dengan nol diizinkan.
+
+44
+00:04:41,916 --> 00:04:48,754
+Berbeda dari partikel dalam kotak atau osilator, rotor bebas tidak punya energi titik nol.
+
+45
+00:04:48,754 --> 00:04:53,139
+Molekul benar-benar boleh tidak berputar sama sekali.
+
+46
+00:04:55,533 --> 00:04:59,618
+Molekul sungguhan tidak berputar pada satu bidang saja.
+
+47
+00:04:59,618 --> 00:05:04,935
+Sumbu ikatannya bisa menunjuk ke arah mana pun di ruang tiga dimensi.
+
+48
+00:05:04,935 --> 00:05:12,670
+Maka ujung sumbu itu bergerak di permukaan sebuah bola, dan kita butuh dua sudut: theta dan phi.
+
+49
+00:05:12,670 --> 00:05:20,971
+Model ini disebut rotor kaku linear: panjang ikatan dianggap tetap, molekul hanya berubah orientasi.
+
+50
+00:05:20,971 --> 00:05:27,752
+Syarat gelombang di permukaan bola lebih ketat, dan memunculkan bilangan kuantum baru: J.
+
+51
+00:05:27,752 --> 00:05:34,224
+Energinya sekarang h bar kuadrat dibagi dua I, dikali J kali J tambah satu.
+
+52
+00:05:34,224 --> 00:05:42,150
+Jadi tingkat energinya nol, dua, enam, dua belas, dua puluh, dikali satuan energi rotasi.
+
+53
+00:05:42,150 --> 00:05:45,303
+Anak tangganya makin lama makin renggang.
+
+54
+00:05:45,303 --> 00:05:53,839
+Setiap tingkat J juga punya dua J tambah satu orientasi yang berbeda, ditandai bilangan M dari minus J sampai J.
+
+55
+00:05:53,839 --> 00:05:58,990
+Tanpa medan luar, semua orientasi itu berenergi sama.
+
+56
+00:06:01,600 --> 00:06:06,062
+Lalu seperti apa fungsi gelombang rotor di permukaan bola?
+
+57
+00:06:06,062 --> 00:06:11,779
+Jawabannya adalah keluarga fungsi yang disebut harmonik sferis, Y J M.
+
+58
+00:06:11,779 --> 00:06:18,271
+Fungsi ini adalah peta peluang: ke arah mana sumbu molekul paling mungkin menunjuk.
+
+59
+00:06:18,271 --> 00:06:24,477
+Untuk J sama dengan nol, petanya bulat sempurna. Semua arah sama mungkinnya.
+
+60
+00:06:24,477 --> 00:06:33,601
+Untuk J sama dengan satu dan M sama dengan nol, peluangnya menumpuk di dekat kedua kutub, dengan simpul di bidang ekuator.
+
+61
+00:06:33,601 --> 00:06:39,129
+Untuk J sama dengan dua, polanya makin rumit, dengan lebih banyak simpul.
+
+62
+00:06:39,129 --> 00:06:42,082
+Bentuk-bentuk ini mungkin terasa akrab.
+
+63
+00:06:42,082 --> 00:06:49,309
+Bagian sudut dari orbital s, p, dan d pada atom ternyata memakai keluarga fungsi yang sama.
+
+64
+00:06:49,309 --> 00:06:56,924
+Namun ingat, di sini yang digambarkan adalah orientasi sebuah molekul, bukan posisi elektron.
+
+65
+00:06:59,533 --> 00:07:04,484
+Momentum sudut sebenarnya adalah sebuah vektor, sebuah panah.
+
+66
+00:07:04,484 --> 00:07:10,290
+Panjang panah itu adalah akar dari J kali J tambah satu, dikali h bar.
+
+67
+00:07:10,290 --> 00:07:15,707
+Sementara proyeksinya pada sumbu z hanya boleh bernilai M kali h bar.
+
+68
+00:07:15,707 --> 00:07:23,222
+Untuk J sama dengan satu, panjangnya akar dua h bar, tetapi proyeksi terbesarnya hanya satu h bar.
+
+69
+00:07:23,222 --> 00:07:28,362
+Artinya, panah itu tidak pernah bisa menunjuk tepat lurus ke atas.
+
+70
+00:07:28,362 --> 00:07:37,475
+Komponen lainnya tidak bisa diketahui bersamaan, sehingga panah digambarkan berada di mana saja pada sebuah kerucut.
+
+71
+00:07:37,475 --> 00:07:43,181
+Gambar kerucut ini hanyalah alat bantu, bukan panah yang benar-benar berputar.
+
+72
+00:07:43,181 --> 00:07:51,539
+Tetapi ia mengingatkan kita bahwa di dunia kuantum, tidak semua besaran bisa diketahui sekaligus.
+
+73
+00:07:53,933 --> 00:08:03,135
+Agar molekul bisa menyerap atau memancarkan gelombang mikro, harus ada sesuatu yang bisa dipegang oleh medan listrik cahaya.
+
+74
+00:08:03,135 --> 00:08:06,854
+Sesuatu itu adalah momen dipol permanen.
+
+75
+00:08:06,854 --> 00:08:14,269
+Pada karbon monoksida, muatan tersebar tidak merata, sehingga satu ujung sedikit lebih negatif.
+
+76
+00:08:14,269 --> 00:08:21,696
+Saat molekul berputar, dipol itu ikut berputar, seperti antena kecil yang memancarkan gelombang.
+
+77
+00:08:21,696 --> 00:08:27,979
+Molekul simetris seperti nitrogen, oksigen, dan hidrogen tidak punya dipol permanen.
+
+78
+00:08:27,979 --> 00:08:33,130
+Mereka berputar, tetapi diam bagi spektroskopi rotasi murni.
+
+79
+00:08:33,130 --> 00:08:39,810
+Aturan kedua: setiap kali menyerap satu foton, J hanya boleh naik atau turun satu.
+
+80
+00:08:39,810 --> 00:08:42,674
+Delta J sama dengan plus minus satu.
+
+81
+00:08:42,674 --> 00:08:48,391
+Foton membawa satu satuan momentum sudut, dan momentum sudut harus kekal.
+
+82
+00:08:48,391 --> 00:08:53,897
+Dua aturan sederhana ini akan menentukan bentuk spektrum yang kita lihat.
+
+83
+00:08:56,500 --> 00:09:00,685
+Sekarang gabungkan tangga energi dengan aturan seleksi.
+
+84
+00:09:00,685 --> 00:09:05,636
+Agar rumus lebih ringkas, kita definisikan konstanta rotasi B.
+
+85
+00:09:05,636 --> 00:09:12,108
+Dalam satuan bilangan gelombang, B sama dengan h dibagi delapan pi kuadrat c I.
+
+86
+00:09:12,108 --> 00:09:19,765
+Tingkat energinya menjadi B kali J kali J tambah satu: nol, dua B, enam B, dua belas B.
+
+87
+00:09:19,765 --> 00:09:26,037
+Lompatan dari J ke J tambah satu membutuhkan energi dua B kali J tambah satu.
+
+88
+00:09:26,037 --> 00:09:32,054
+Lompatan pertama dua B, berikutnya empat B, lalu enam B, delapan B.
+
+89
+00:09:32,054 --> 00:09:33,586
+Inilah yang indah:
+
+90
+00:09:33,586 --> 00:09:40,258
+walaupun anak tangganya makin renggang, garis-garis spektrumnya berjarak sama, yaitu dua B.
+
+91
+00:09:40,258 --> 00:09:43,977
+Spektrum rotasi tampak seperti sisir yang teratur.
+
+92
+00:09:43,977 --> 00:09:50,248
+Dan dari jarak gigi sisir itu, kita bisa langsung membaca momen inersia molekul.
+
+93
+00:09:52,833 --> 00:09:58,184
+Sisir itu tidak sama tinggi. Ada garis yang kuat, ada yang lemah.
+
+94
+00:09:58,184 --> 00:10:03,701
+Sebabnya, tidak semua anak tangga dihuni molekul dalam jumlah yang sama.
+
+95
+00:10:03,701 --> 00:10:06,843
+Ada dua faktor yang saling tarik-menarik.
+
+96
+00:10:06,843 --> 00:10:15,333
+Faktor pertama, degenerasi: tingkat J yang lebih tinggi punya lebih banyak orientasi, yaitu dua J tambah satu.
+
+97
+00:10:15,333 --> 00:10:21,081
+Faktor kedua, faktor Boltzmann: tingkat berenergi tinggi makin jarang dihuni.
+
+98
+00:10:21,081 --> 00:10:25,288
+Hasil kalinya naik dulu, mencapai puncak, lalu turun.
+
+99
+00:10:25,288 --> 00:10:32,792
+Untuk karbon monoksida pada suhu kamar, puncak populasinya berada di sekitar J sama dengan tujuh.
+
+100
+00:10:32,792 --> 00:10:37,366
+Jika gas didinginkan, puncaknya bergeser ke J yang lebih kecil.
+
+101
+00:10:37,366 --> 00:10:43,837
+Artinya, pola tinggi garis spektrum rotasi bisa dipakai sebagai termometer jarak jauh.
+
+102
+00:10:46,633 --> 00:10:54,634
+Sekarang kita pakai teori ini untuk mengukur sesuatu yang sangat kecil: panjang sebuah ikatan kimia.
+
+103
+00:10:54,634 --> 00:11:03,948
+Garis rotasi pertama karbon monoksida, dari J nol ke J satu, terukur pada seratus lima belas koma dua tujuh gigahertz.
+
+104
+00:11:03,948 --> 00:11:08,133
+Panjang gelombangnya sekitar dua koma enam milimeter.
+
+105
+00:11:08,133 --> 00:11:16,202
+Karena garis pertama sama dengan dua B, konstanta rotasinya sekitar lima puluh tujuh koma enam gigahertz.
+
+106
+00:11:16,202 --> 00:11:26,579
+Dari B, kita peroleh momen inersia: sekitar satu koma empat enam kali sepuluh pangkat minus empat puluh enam kilogram meter persegi.
+
+107
+00:11:26,579 --> 00:11:35,204
+Massa tereduksi karbon dua belas dan oksigen enam belas adalah sekitar enam koma delapan enam satuan massa atom.
+
+108
+00:11:35,204 --> 00:11:40,343
+Bagi momen inersia dengan massa tereduksi, lalu tarik akarnya.
+
+109
+00:11:40,343 --> 00:11:46,626
+Hasilnya, panjang ikatan karbon monoksida sekitar seratus tiga belas pikometer.
+
+110
+00:11:46,626 --> 00:11:53,753
+Itu sekitar sepersepuluh miliar meter, diukur hanya dengan mendengarkan satu nada molekul.
+
+111
+00:11:53,753 --> 00:12:00,768
+Nilai acuan untuk panjang ikatan setimbang adalah seratus dua belas koma delapan pikometer.
+
+112
+00:12:00,768 --> 00:12:07,228
+Selisih kecilnya datang dari getaran molekul yang tetap ada walaupun molekul berputar.
+
+113
+00:12:09,833 --> 00:12:15,728
+Sekarang ganti karbon dua belas dengan isotop yang lebih berat, karbon tiga belas.
+
+114
+00:12:15,728 --> 00:12:21,245
+Muatan dan elektronnya sama, jadi panjang ikatannya hampir tidak berubah.
+
+115
+00:12:21,245 --> 00:12:25,996
+Tetapi massa tereduksinya naik sekitar empat koma enam persen.
+
+116
+00:12:25,996 --> 00:12:31,890
+Momen inersia ikut naik, dan konstanta rotasi turun dengan perbandingan yang sama.
+
+117
+00:12:31,890 --> 00:12:38,470
+Prediksi kita: garis pertama bergeser ke sekitar seratus sepuluh koma dua gigahertz.
+
+118
+00:12:38,470 --> 00:12:44,576
+Pengukuran menunjukkan seratus sepuluh koma dua nol gigahertz. Hampir tepat.
+
+119
+00:12:44,576 --> 00:12:53,343
+Perhatikan bedanya dengan getaran: frekuensi rotasi berbanding terbalik dengan massa tereduksi, bukan dengan akarnya.
+
+120
+00:12:53,343 --> 00:13:01,890
+Karena garis-garis isotop terpisah jelas, spektrum rotasi bisa membedakan dan menghitung isotop dalam satu sampel gas.
+
+121
+00:13:04,500 --> 00:13:11,649
+Model rotor kaku menganggap ikatan tidak bisa memanjang. Kenyataannya, ikatan itu lentur.
+
+122
+00:13:11,649 --> 00:13:17,732
+Semakin cepat molekul berputar, gaya sentrifugal sedikit meregangkan ikatannya.
+
+123
+00:13:17,732 --> 00:13:24,004
+Momen inersia membesar, dan energi tingkat tinggi sedikit lebih rendah dari prediksi.
+
+124
+00:13:24,004 --> 00:13:29,709
+Koreksi ini disebut distorsi sentrifugal, dengan konstanta D yang sangat kecil.
+
+125
+00:13:29,709 --> 00:13:39,200
+Pada karbon monoksida, garis J lima ke enam terukur sekitar seratus lima puluh megahertz lebih rendah dari prediksi rotor kaku.
+
+126
+00:13:39,200 --> 00:13:44,906
+Kecil, tetapi spektrometer gelombang mikro bisa mengukurnya dengan sangat mudah.
+
+127
+00:13:44,906 --> 00:13:47,858
+Rotasi juga menumpang pada getaran.
+
+128
+00:13:47,858 --> 00:13:56,148
+Di daerah inframerah, pita getaran karbon monoksida terpecah menjadi dua deret garis: cabang P dan cabang R.
+
+129
+00:13:56,148 --> 00:14:03,941
+Di tengahnya ada celah kosong, karena untuk molekul ini perubahan J sama dengan nol tidak diizinkan.
+
+130
+00:14:03,941 --> 00:14:09,069
+Jarak garis di kedua cabang kembali menceritakan konstanta rotasi.
+
+131
+00:14:11,667 --> 00:14:15,186
+Bagaimana garis-garis setajam ini diukur?
+
+132
+00:14:15,186 --> 00:14:23,255
+Sampel gas dimasukkan ke dalam ruang bertekanan sangat rendah, agar molekul bebas berputar tanpa sering bertabrakan.
+
+133
+00:14:23,255 --> 00:14:31,803
+Pada spektrometer modern, molekul disemprotkan sebagai pancaran supersonik sehingga sangat dingin, hanya beberapa kelvin.
+
+134
+00:14:31,803 --> 00:14:37,874
+Lalu satu denyut gelombang mikro yang sangat singkat menyapu banyak frekuensi sekaligus.
+
+135
+00:14:37,874 --> 00:14:42,148
+Denyut itu membuat dipol-dipol molekul berputar serempak.
+
+136
+00:14:42,148 --> 00:14:48,419
+Setelah denyut berhenti, molekul memancarkan kembali sinyal lemah yang meluruh perlahan.
+
+137
+00:14:48,419 --> 00:14:54,314
+Sinyal itu direkam, lalu diubah dengan transformasi Fourier menjadi spektrum.
+
+138
+00:14:54,314 --> 00:15:02,672
+Ketelitiannya bisa mencapai beberapa kilohertz, jauh lebih teliti daripada kebanyakan teknik spektroskopi lain.
+
+139
+00:15:05,267 --> 00:15:10,229
+Molekul linear hanya punya satu momen inersia. Air tidak.
+
+140
+00:15:10,229 --> 00:15:17,933
+Molekul air berbentuk bengkok, sehingga punya tiga momen inersia yang berbeda, satu untuk setiap sumbu.
+
+141
+00:15:17,933 --> 00:15:24,493
+Ia disebut rotor asimetris, dan spektrumnya jauh lebih rumit daripada sisir sederhana.
+
+142
+00:15:24,493 --> 00:15:34,727
+Dua garis uap air yang terkenal berada di dua puluh dua koma dua tiga gigahertz dan seratus delapan puluh tiga koma tiga satu gigahertz.
+
+143
+00:15:34,727 --> 00:15:39,289
+Garis-garis ini hanya tajam untuk molekul air dalam fase gas.
+
+144
+00:15:39,289 --> 00:15:45,938
+Di dalam air cair, setiap molekul terikat oleh jaringan ikatan hidrogen dengan tetangganya.
+
+145
+00:15:45,938 --> 00:15:52,133
+Ia tidak bisa berputar bebas. Ia hanya bisa bergoyang dan berganti pasangan.
+
+146
+00:15:52,133 --> 00:15:57,650
+Fakta kecil ini akan menjadi kunci untuk memahami oven microwave.
+
+147
+00:16:00,433 --> 00:16:02,065
+Kembali ke dapur.
+
+148
+00:16:02,065 --> 00:16:07,571
+Oven microwave rumah tangga bekerja pada dua koma empat lima gigahertz.
+
+149
+00:16:07,571 --> 00:16:13,465
+Sering dikatakan, frekuensi ini adalah frekuensi resonansi molekul air.
+
+150
+00:16:13,465 --> 00:16:15,397
+Itu tidak tepat.
+
+151
+00:16:15,397 --> 00:16:24,033
+Garis rotasi uap air terendah yang terkenal saja ada di dua puluh dua gigahertz, sekitar sembilan kali lebih tinggi.
+
+152
+00:16:24,033 --> 00:16:29,739
+Dan air di dalam makanan berupa cairan, yang tidak punya tangga rotasi yang tajam.
+
+153
+00:16:29,739 --> 00:16:33,169
+Yang terjadi adalah pemanasan dielektrik.
+
+154
+00:16:33,169 --> 00:16:41,894
+Medan listrik yang bolak-balik terus menarik dipol-dipol air untuk berbalik arah, tetapi jaringan ikatan hidrogen menahannya.
+
+155
+00:16:41,894 --> 00:16:49,297
+Gesekan antarmolekul ini mengubah energi gelombang menjadi panas, dalam rentang frekuensi yang lebar.
+
+156
+00:16:49,297 --> 00:17:02,307
+Dua koma empat lima gigahertz dipilih karena termasuk pita ISM, pita frekuensi untuk keperluan industri, ilmiah, dan medis, dan gelombangnya cukup dalam menembus makanan.
+
+157
+00:17:02,307 --> 00:17:12,575
+Di industri, prinsip yang sama dipakai untuk mengeringkan kayu dan kertas, mencairkan bahan pangan beku, sampai mempercepat reaksi sintesis kimia.
+
+158
+00:17:15,167 --> 00:17:19,452
+Nah, di mana putaran kuantum benar-benar dimanfaatkan?
+
+159
+00:17:19,452 --> 00:17:21,838
+Salah satunya di orbit Bumi.
+
+160
+00:17:21,838 --> 00:17:27,533
+Satelit cuaca membawa radiometer gelombang mikro yang mendengarkan atmosfer.
+
+161
+00:17:27,533 --> 00:17:36,346
+Garis uap air di sekitar seratus delapan puluh tiga gigahertz dipakai untuk memetakan kelembapan di berbagai ketinggian.
+
+162
+00:17:36,346 --> 00:17:43,750
+Pita oksigen di sekitar enam puluh gigahertz dipakai untuk mengukur suhu atmosfer, lapis demi lapis.
+
+163
+00:17:43,750 --> 00:17:54,095
+Oksigen memang tidak punya dipol listrik, tetapi ia punya dipol magnetik dari elektron yang tidak berpasangan, sehingga tetap bisa berinteraksi.
+
+164
+00:17:54,095 --> 00:18:02,631
+Gelombang mikro juga dapat menembus sebagian besar awan, sehingga pengukuran tetap bisa dilakukan saat langit mendung.
+
+165
+00:18:02,631 --> 00:18:07,393
+Data ini masuk ke model prakiraan cuaca setiap hari.
+
+166
+00:18:10,000 --> 00:18:13,708
+Kembali ke antena raksasa di gurun Atacama.
+
+167
+00:18:13,708 --> 00:18:18,270
+Bahan utama awan pembentuk bintang adalah molekul hidrogen.
+
+168
+00:18:18,270 --> 00:18:25,796
+Masalahnya, hidrogen tidak punya dipol permanen. Ia hampir tidak terlihat oleh teleskop radio.
+
+169
+00:18:25,796 --> 00:18:30,170
+Jadi astronom memakai karbon monoksida sebagai penanda.
+
+170
+00:18:30,170 --> 00:18:40,604
+Garis seratus lima belas gigahertz yang tadi kita pakai untuk mengukur panjang ikatan, kini dipakai untuk memetakan awan gas di seluruh galaksi.
+
+171
+00:18:40,604 --> 00:18:46,687
+Dari pergeseran Doppler garis itu, astronom tahu seberapa cepat awan bergerak.
+
+172
+00:18:46,687 --> 00:18:55,711
+Dari perbandingan tinggi garis-garisnya, mereka bisa memperkirakan suhunya, persis seperti termometer yang kita bahas tadi.
+
+173
+00:18:55,711 --> 00:19:03,704
+Dengan cara ini, ratusan jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
+
+174
+00:19:03,704 --> 00:19:12,240
+Setiap penemuan bergantung pada katalog frekuensi rotasi yang diukur dulu di laboratorium kimia di Bumi.
+
+175
+00:19:14,833 --> 00:19:21,671
+Ingat bahwa konstanta rotasi bergantung pada momen inersia, yaitu pada letak setiap atom.
+
+176
+00:19:21,671 --> 00:19:29,652
+Dua molekul dengan rumus yang sama tetapi susunan berbeda, atau isomer, punya momen inersia berbeda.
+
+177
+00:19:29,652 --> 00:19:35,358
+Maka spektrum rotasinya juga berbeda, dan garisnya hampir tidak pernah bertumpuk.
+
+178
+00:19:35,358 --> 00:19:40,486
+Teknik ini dikenal sebagai spektroskopi resonansi rotasi molekul.
+
+179
+00:19:40,486 --> 00:19:51,220
+Sejak spektrometer denyut kicau, atau chirped pulse, dikembangkan sekitar tahun dua ribu delapan, teknik ini mulai masuk ke laboratorium industri.
+
+180
+00:19:51,220 --> 00:20:00,511
+Di industri farmasi, ia dipakai untuk memeriksa kemurnian bahan baku dan membedakan isomer tanpa perlu kolom kromatografi.
+
+181
+00:20:00,511 --> 00:20:09,347
+Dengan bantuan molekul pembantu yang kiral, ia bahkan bisa membedakan pasangan enansiomer, molekul yang saling bercermin.
+
+182
+00:20:09,347 --> 00:20:18,648
+Dan karena setiap garis dihitung dari geometri molekul, hasilnya bisa dicocokkan langsung dengan perhitungan kimia kuantum.
+
+183
+00:20:21,233 --> 00:20:23,909
+Mari kita rangkai perjalanannya.
+
+184
+00:20:23,909 --> 00:20:31,967
+Gelombang yang melingkar harus menutup dirinya sendiri, sehingga energi dan momentum sudut rotasi terkuantisasi.
+
+185
+00:20:31,967 --> 00:20:40,026
+Rotor tiga dimensi punya tingkat energi B kali J kali J tambah satu, dengan dua J tambah satu orientasi.
+
+186
+00:20:40,026 --> 00:20:48,662
+Hanya molekul berdipol yang terlihat, dan setiap lompatan mengubah J sebesar satu, sehingga garis spektrum berjarak dua B.
+
+187
+00:20:48,662 --> 00:20:54,190
+Dari jarak garis itu kita membaca panjang ikatan, isotop, dan suhu.
+
+188
+00:20:54,190 --> 00:21:05,235
+Di industri, pengetahuan ini memisahkan mitos dari fakta di dapur, membantu prakiraan cuaca, memetakan galaksi, dan menjaga mutu obat.
+
+189
+00:21:05,235 --> 00:21:08,565
+Jadi, lain kali kamu memutar sebuah gasing,
+
+190
+00:21:08,565 --> 00:21:15,026
+ingatlah bahwa di dalam udara di sekitarmu, miliaran molekul juga sedang berputar.
+
+191
+00:21:15,026 --> 00:21:21,497
+Hanya saja, mereka berputar mengikuti tangga yang ditulis oleh mekanika kuantum.

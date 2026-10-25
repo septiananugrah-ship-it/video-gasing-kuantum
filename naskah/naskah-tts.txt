@@ -1,0 +1,191 @@
+hook-00	Di dapur, sebuah oven microwave memanaskan secangkir teh.
+hook-01	Di gurun Atacama, antena-antena raksasa menangkap gelombang dari awan gas yang jaraknya ribuan tahun cahaya.
+hook-02	Keduanya bekerja dengan gelombang mikro.
+hook-03	Dan keduanya sering dijelaskan dengan kalimat yang sama: molekul yang berputar.
+hook-04	Tapi hanya satu di antaranya yang benar-benar mendengarkan putaran kuantum.
+hook-05	Yang satunya lagi, ternyata, sering disalahpahami.
+hook-06	Untuk tahu mana yang mana, kita perlu bertanya:
+hook-07	bagaimana sebuah molekul berputar, jika aturannya ditulis oleh mekanika kuantum?
+roadmap-00	Video ini membahas kimia kuantum gerak rotasi dalam tiga bagian.
+roadmap-01	Bagian pertama, prinsip dan teori dasarnya: dari partikel pada cincin hingga rotor tiga dimensi.
+roadmap-02	Bagian kedua, implementasinya dalam kimia: membaca panjang ikatan dan isotop dari spektrum gelombang mikro.
+roadmap-03	Dan bagian ketiga, penerapannya di dunia industri: dari oven, satelit cuaca, teleskop radio, sampai laboratorium farmasi.
+spin-00	Bayangkan sebuah gasing.
+spin-01	Gasing yang ringan mudah diputar, gasing yang berat dan lebar lebih malas berputar.
+spin-02	Kemalasan berputar ini disebut momen inersia, dan diberi lambang i.
+spin-03	Untuk satu massa yang berputar pada jarak er dari poros, momen inersianya adalah em kali er kuadrat.
+spin-04	Sekarang ganti gasing itu dengan molekul dua atom, misalnya karbon monoksida.
+spin-05	Molekul ini tidak berputar di sekitar salah satu atom, melainkan di sekitar pusat massanya.
+spin-06	Atom yang lebih berat berada lebih dekat ke pusat, atom yang lebih ringan berayun lebih jauh.
+spin-07	Hasilnya ringkas: momen inersia sama dengan massa tereduksi mu, dikali kuadrat panjang ikatan.
+spin-08	Massa tereduksi adalah hasil kali kedua massa, dibagi jumlah keduanya.
+spin-09	Dalam fisika klasik, gasing ini boleh berputar dengan energi berapa saja.
+spin-10	Molekul tidak.
+ring-00	Mari mulai dari model paling sederhana: sebuah partikel yang hanya boleh bergerak pada cincin.
+ring-01	Jari-jarinya tetap, dan posisinya cukup dinyatakan dengan satu sudut, fi.
+ring-02	Menurut mekanika kuantum, partikel ini digambarkan oleh fungsi gelombang yang melingkari cincin.
+ring-03	Setelah berkeliling satu putaran penuh, gelombang itu kembali ke titik yang sama.
+ring-04	Maka nilainya harus tersambung mulus dengan dirinya sendiri.
+ring-05	Jika tidak, gelombang akan bertabrakan dengan ekornya sendiri dan saling menghapus.
+ring-06	Syarat ini disebut kondisi batas periodik: psi pada fi tambah dua pi sama dengan psi pada fi.
+ring-07	Hanya gelombang dengan jumlah panjang gelombang bulat yang lolos: nol, satu, dua, tiga, dan seterusnya.
+ring-08	Bilangan bulat ini kita sebut ki, bilangan kuantum cincin.
+ring-09	Dari persamaan Syrodinger, energinya menjadi ki kuadrat, dikali ha bar kuadrat, dibagi dua i.
+ring-10	Energi rotasi tidak lagi kontinu. Ia terkuantisasi.
+direction-00	Bilangan ki boleh positif atau negatif.
+direction-01	Tandanya menunjukkan arah putaran: berlawanan arah jarum jam, atau searah jarum jam, dilihat dari atas.
+direction-02	Besarnya menentukan momentum sudut: el zet sama dengan ki kali ha bar.
+direction-03	Momentum sudut pun terkuantisasi, selalu kelipatan bulat dari ha bar.
+direction-04	Karena energi bergantung pada ki kuadrat, putaran ke kiri dan ke kanan punya energi yang sama.
+direction-05	Setiap tingkat, kecuali ki sama dengan nol, berdegenerasi dua.
+direction-06	Jika keduanya dicampur dengan bobot sama, terbentuk gelombang berdiri dengan simpul yang diam di tempat.
+direction-07	Energinya tetap pasti, tetapi arah putarannya kini tidak pasti: separuh peluang ke kiri, separuh ke kanan.
+direction-08	Satu hal lagi yang mengejutkan: keadaan ki sama dengan nol diizinkan.
+direction-09	Berbeda dari partikel dalam kotak atau osilator, rotor bebas tidak punya energi titik nol.
+direction-10	Molekul benar-benar boleh tidak berputar sama sekali.
+sphere-00	Molekul sungguhan tidak berputar pada satu bidang saja.
+sphere-01	Sumbu ikatannya bisa menunjuk ke arah mana pun di ruang tiga dimensi.
+sphere-02	Maka ujung sumbu itu bergerak di permukaan sebuah bola, dan kita butuh dua sudut: teta dan fi.
+sphere-03	Model ini disebut rotor kaku linear: panjang ikatan dianggap tetap, molekul hanya berubah orientasi.
+sphere-04	Syarat gelombang di permukaan bola lebih ketat, dan memunculkan bilangan kuantum baru: je.
+sphere-05	Energinya sekarang ha bar kuadrat dibagi dua i, dikali je kali je tambah satu.
+sphere-06	Jadi tingkat energinya nol, dua, enam, dua belas, dua puluh, dikali satuan energi rotasi.
+sphere-07	Anak tangganya makin lama makin renggang.
+sphere-08	Setiap tingkat je juga punya dua je tambah satu orientasi yang berbeda, ditandai bilangan em dari minus je sampai je.
+sphere-09	Tanpa medan luar, semua orientasi itu berenergi sama.
+harmonics-00	Lalu seperti apa fungsi gelombang rotor di permukaan bola?
+harmonics-01	Jawabannya adalah keluarga fungsi yang disebut harmonik sferis, ye je em.
+harmonics-02	Fungsi ini adalah peta peluang: ke arah mana sumbu molekul paling mungkin menunjuk.
+harmonics-03	Untuk je sama dengan nol, petanya bulat sempurna. Semua arah sama mungkinnya.
+harmonics-04	Untuk je sama dengan satu dan em sama dengan nol, peluangnya menumpuk di dekat kedua kutub, dengan simpul di bidang ekuator.
+harmonics-05	Untuk je sama dengan dua, polanya makin rumit, dengan lebih banyak simpul.
+harmonics-06	Bentuk-bentuk ini mungkin terasa akrab.
+harmonics-07	Bagian sudut dari orbital es, pe, dan de pada atom ternyata memakai keluarga fungsi yang sama.
+harmonics-08	Namun ingat, di sini yang digambarkan adalah orientasi sebuah molekul, bukan posisi elektron.
+cone-00	Momentum sudut sebenarnya adalah sebuah vektor, sebuah panah.
+cone-01	Panjang panah itu adalah akar dari je kali je tambah satu, dikali ha bar.
+cone-02	Sementara proyeksinya pada sumbu zet hanya boleh bernilai em kali ha bar.
+cone-03	Untuk je sama dengan satu, panjangnya akar dua ha bar, tetapi proyeksi terbesarnya hanya satu ha bar.
+cone-04	Artinya, panah itu tidak pernah bisa menunjuk tepat lurus ke atas.
+cone-05	Komponen lainnya tidak bisa diketahui bersamaan, sehingga panah digambarkan berada di mana saja pada sebuah kerucut.
+cone-06	Gambar kerucut ini hanyalah alat bantu, bukan panah yang benar-benar berputar.
+cone-07	Tetapi ia mengingatkan kita bahwa di dunia kuantum, tidak semua besaran bisa diketahui sekaligus.
+selection-00	Agar molekul bisa menyerap atau memancarkan gelombang mikro, harus ada sesuatu yang bisa dipegang oleh medan listrik cahaya.
+selection-01	Sesuatu itu adalah momen dipol permanen.
+selection-02	Pada karbon monoksida, muatan tersebar tidak merata, sehingga satu ujung sedikit lebih negatif.
+selection-03	Saat molekul berputar, dipol itu ikut berputar, seperti antena kecil yang memancarkan gelombang.
+selection-04	Molekul simetris seperti nitrogen, oksigen, dan hidrogen tidak punya dipol permanen.
+selection-05	Mereka berputar, tetapi diam bagi spektroskopi rotasi murni.
+selection-06	Aturan kedua: setiap kali menyerap satu foton, je hanya boleh naik atau turun satu.
+selection-07	Delta je sama dengan plus minus satu.
+selection-08	Foton membawa satu satuan momentum sudut, dan momentum sudut harus kekal.
+selection-09	Dua aturan sederhana ini akan menentukan bentuk spektrum yang kita lihat.
+ladder-00	Sekarang gabungkan tangga energi dengan aturan seleksi.
+ladder-01	Agar rumus lebih ringkas, kita definisikan konstanta rotasi be.
+ladder-02	Dalam satuan bilangan gelombang, be sama dengan ha dibagi delapan pi kuadrat ce i.
+ladder-03	Tingkat energinya menjadi be kali je kali je tambah satu: nol, dua be, enam be, dua belas be.
+ladder-04	Lompatan dari je ke je tambah satu membutuhkan energi dua be kali je tambah satu.
+ladder-05	Lompatan pertama dua be, berikutnya empat be, lalu enam be, delapan be.
+ladder-06	Inilah yang indah:
+ladder-07	walaupun anak tangganya makin renggang, garis-garis spektrumnya berjarak sama, yaitu dua be.
+ladder-08	Spektrum rotasi tampak seperti sisir yang teratur.
+ladder-09	Dan dari jarak gigi sisir itu, kita bisa langsung membaca momen inersia molekul.
+thermal-00	Sisir itu tidak sama tinggi. Ada garis yang kuat, ada yang lemah.
+thermal-01	Sebabnya, tidak semua anak tangga dihuni molekul dalam jumlah yang sama.
+thermal-02	Ada dua faktor yang saling tarik-menarik.
+thermal-03	Faktor pertama, degenerasi: tingkat je yang lebih tinggi punya lebih banyak orientasi, yaitu dua je tambah satu.
+thermal-04	Faktor kedua, faktor Boltzmann: tingkat berenergi tinggi makin jarang dihuni.
+thermal-05	Hasil kalinya naik dulu, mencapai puncak, lalu turun.
+thermal-06	Untuk karbon monoksida pada suhu kamar, puncak populasinya berada di sekitar je sama dengan tujuh.
+thermal-07	Jika gas didinginkan, puncaknya bergeser ke je yang lebih kecil.
+thermal-08	Artinya, pola tinggi garis spektrum rotasi bisa dipakai sebagai termometer jarak jauh.
+bondlength-00	Sekarang kita pakai teori ini untuk mengukur sesuatu yang sangat kecil: panjang sebuah ikatan kimia.
+bondlength-01	Garis rotasi pertama karbon monoksida, dari je nol ke je satu, terukur pada seratus lima belas koma dua tujuh gigahertz.
+bondlength-02	Panjang gelombangnya sekitar dua koma enam milimeter.
+bondlength-03	Karena garis pertama sama dengan dua be, konstanta rotasinya sekitar lima puluh tujuh koma enam gigahertz.
+bondlength-04	Dari be, kita peroleh momen inersia: sekitar satu koma empat enam kali sepuluh pangkat minus empat puluh enam kilogram meter persegi.
+bondlength-05	Massa tereduksi karbon dua belas dan oksigen enam belas adalah sekitar enam koma delapan enam satuan massa atom.
+bondlength-06	Bagi momen inersia dengan massa tereduksi, lalu tarik akarnya.
+bondlength-07	Hasilnya, panjang ikatan karbon monoksida sekitar seratus tiga belas pikometer.
+bondlength-08	Itu sekitar sepersepuluh miliar meter, diukur hanya dengan mendengarkan satu nada molekul.
+bondlength-09	Nilai acuan untuk panjang ikatan setimbang adalah seratus dua belas koma delapan pikometer.
+bondlength-10	Selisih kecilnya datang dari getaran molekul yang tetap ada walaupun molekul berputar.
+isotope-00	Sekarang ganti karbon dua belas dengan isotop yang lebih berat, karbon tiga belas.
+isotope-01	Muatan dan elektronnya sama, jadi panjang ikatannya hampir tidak berubah.
+isotope-02	Tetapi massa tereduksinya naik sekitar empat koma enam persen.
+isotope-03	Momen inersia ikut naik, dan konstanta rotasi turun dengan perbandingan yang sama.
+isotope-04	Prediksi kita: garis pertama bergeser ke sekitar seratus sepuluh koma dua gigahertz.
+isotope-05	Pengukuran menunjukkan seratus sepuluh koma dua nol gigahertz. Hampir tepat.
+isotope-06	Perhatikan bedanya dengan getaran: frekuensi rotasi berbanding terbalik dengan massa tereduksi, bukan dengan akarnya.
+isotope-07	Karena garis-garis isotop terpisah jelas, spektrum rotasi bisa membedakan dan menghitung isotop dalam satu sampel gas.
+stretch-00	Model rotor kaku menganggap ikatan tidak bisa memanjang. Kenyataannya, ikatan itu lentur.
+stretch-01	Semakin cepat molekul berputar, gaya sentrifugal sedikit meregangkan ikatannya.
+stretch-02	Momen inersia membesar, dan energi tingkat tinggi sedikit lebih rendah dari prediksi.
+stretch-03	Koreksi ini disebut distorsi sentrifugal, dengan konstanta de yang sangat kecil.
+stretch-04	Pada karbon monoksida, garis je lima ke enam terukur sekitar seratus lima puluh megahertz lebih rendah dari prediksi rotor kaku.
+stretch-05	Kecil, tetapi spektrometer gelombang mikro bisa mengukurnya dengan sangat mudah.
+stretch-06	Rotasi juga menumpang pada getaran.
+stretch-07	Di daerah inframerah, pita getaran karbon monoksida terpecah menjadi dua deret garis: cabang pe dan cabang er.
+stretch-08	Di tengahnya ada celah kosong, karena untuk molekul ini perubahan je sama dengan nol tidak diizinkan.
+stretch-09	Jarak garis di kedua cabang kembali menceritakan konstanta rotasi.
+instrument-00	Bagaimana garis-garis setajam ini diukur?
+instrument-01	Sampel gas dimasukkan ke dalam ruang bertekanan sangat rendah, agar molekul bebas berputar tanpa sering bertabrakan.
+instrument-02	Pada spektrometer modern, molekul disemprotkan sebagai pancaran supersonik sehingga sangat dingin, hanya beberapa kelvin.
+instrument-03	Lalu satu denyut gelombang mikro yang sangat singkat menyapu banyak frekuensi sekaligus.
+instrument-04	Denyut itu membuat dipol-dipol molekul berputar serempak.
+instrument-05	Setelah denyut berhenti, molekul memancarkan kembali sinyal lemah yang meluruh perlahan.
+instrument-06	Sinyal itu direkam, lalu diubah dengan transformasi Fourier menjadi spektrum.
+instrument-07	Ketelitiannya bisa mencapai beberapa kilohertz, jauh lebih teliti daripada kebanyakan teknik spektroskopi lain.
+water-00	Molekul linear hanya punya satu momen inersia. Air tidak.
+water-01	Molekul air berbentuk bengkok, sehingga punya tiga momen inersia yang berbeda, satu untuk setiap sumbu.
+water-02	Ia disebut rotor asimetris, dan spektrumnya jauh lebih rumit daripada sisir sederhana.
+water-03	Dua garis uap air yang terkenal berada di dua puluh dua koma dua tiga gigahertz dan seratus delapan puluh tiga koma tiga satu gigahertz.
+water-04	Garis-garis ini hanya tajam untuk molekul air dalam fase gas.
+water-05	Di dalam air cair, setiap molekul terikat oleh jaringan ikatan hidrogen dengan tetangganya.
+water-06	Ia tidak bisa berputar bebas. Ia hanya bisa bergoyang dan berganti pasangan.
+water-07	Fakta kecil ini akan menjadi kunci untuk memahami oven microwave.
+oven-00	Kembali ke dapur.
+oven-01	Oven microwave rumah tangga bekerja pada dua koma empat lima gigahertz.
+oven-02	Sering dikatakan, frekuensi ini adalah frekuensi resonansi molekul air.
+oven-03	Itu tidak tepat.
+oven-04	Garis rotasi uap air terendah yang terkenal saja ada di dua puluh dua gigahertz, sekitar sembilan kali lebih tinggi.
+oven-05	Dan air di dalam makanan berupa cairan, yang tidak punya tangga rotasi yang tajam.
+oven-06	Yang terjadi adalah pemanasan dielektrik.
+oven-07	Medan listrik yang bolak-balik terus menarik dipol-dipol air untuk berbalik arah, tetapi jaringan ikatan hidrogen menahannya.
+oven-08	Gesekan antarmolekul ini mengubah energi gelombang menjadi panas, dalam rentang frekuensi yang lebar.
+oven-09	Dua koma empat lima gigahertz dipilih karena termasuk pita ISM, pita frekuensi untuk keperluan industri, ilmiah, dan medis, dan gelombangnya cukup dalam menembus makanan.
+oven-10	Di industri, prinsip yang sama dipakai untuk mengeringkan kayu dan kertas, mencairkan bahan pangan beku, sampai mempercepat reaksi sintesis kimia.
+satellite-00	Nah, di mana putaran kuantum benar-benar dimanfaatkan?
+satellite-01	Salah satunya di orbit Bumi.
+satellite-02	Satelit cuaca membawa radiometer gelombang mikro yang mendengarkan atmosfer.
+satellite-03	Garis uap air di sekitar seratus delapan puluh tiga gigahertz dipakai untuk memetakan kelembapan di berbagai ketinggian.
+satellite-04	Pita oksigen di sekitar enam puluh gigahertz dipakai untuk mengukur suhu atmosfer, lapis demi lapis.
+satellite-05	Oksigen memang tidak punya dipol listrik, tetapi ia punya dipol magnetik dari elektron yang tidak berpasangan, sehingga tetap bisa berinteraksi.
+satellite-06	Gelombang mikro juga dapat menembus sebagian besar awan, sehingga pengukuran tetap bisa dilakukan saat langit mendung.
+satellite-07	Data ini masuk ke model prakiraan cuaca setiap hari.
+cosmos-00	Kembali ke antena raksasa di gurun Atacama.
+cosmos-01	Bahan utama awan pembentuk bintang adalah molekul hidrogen.
+cosmos-02	Masalahnya, hidrogen tidak punya dipol permanen. Ia hampir tidak terlihat oleh teleskop radio.
+cosmos-03	Jadi astronom memakai karbon monoksida sebagai penanda.
+cosmos-04	Garis seratus lima belas gigahertz yang tadi kita pakai untuk mengukur panjang ikatan, kini dipakai untuk memetakan awan gas di seluruh galaksi.
+cosmos-05	Dari pergeseran Doppler garis itu, astronom tahu seberapa cepat awan bergerak.
+cosmos-06	Dari perbandingan tinggi garis-garisnya, mereka bisa memperkirakan suhunya, persis seperti termometer yang kita bahas tadi.
+cosmos-07	Dengan cara ini, ratusan jenis molekul telah ditemukan di ruang antarbintang, termasuk molekul organik.
+cosmos-08	Setiap penemuan bergantung pada katalog frekuensi rotasi yang diukur dulu di laboratorium kimia di Bumi.
+pharma-00	Ingat bahwa konstanta rotasi bergantung pada momen inersia, yaitu pada letak setiap atom.
+pharma-01	Dua molekul dengan rumus yang sama tetapi susunan berbeda, atau isomer, punya momen inersia berbeda.
+pharma-02	Maka spektrum rotasinya juga berbeda, dan garisnya hampir tidak pernah bertumpuk.
+pharma-03	Teknik ini dikenal sebagai spektroskopi resonansi rotasi molekul.
+pharma-04	Sejak spektrometer denyut kicau, atau chirped pulse, dikembangkan sekitar tahun dua ribu delapan, teknik ini mulai masuk ke laboratorium industri.
+pharma-05	Di industri farmasi, ia dipakai untuk memeriksa kemurnian bahan baku dan membedakan isomer tanpa perlu kolom kromatografi.
+pharma-06	Dengan bantuan molekul pembantu yang kiral, ia bahkan bisa membedakan pasangan enansiomer, molekul yang saling bercermin.
+pharma-07	Dan karena setiap garis dihitung dari geometri molekul, hasilnya bisa dicocokkan langsung dengan perhitungan kimia kuantum.
+recap-00	Mari kita rangkai perjalanannya.
+recap-01	Gelombang yang melingkar harus menutup dirinya sendiri, sehingga energi dan momentum sudut rotasi terkuantisasi.
+recap-02	Rotor tiga dimensi punya tingkat energi be kali je kali je tambah satu, dengan dua je tambah satu orientasi.
+recap-03	Hanya molekul berdipol yang terlihat, dan setiap lompatan mengubah je sebesar satu, sehingga garis spektrum berjarak dua be.
+recap-04	Dari jarak garis itu kita membaca panjang ikatan, isotop, dan suhu.
+recap-05	Di industri, pengetahuan ini memisahkan mitos dari fakta di dapur, membantu prakiraan cuaca, memetakan galaksi, dan menjaga mutu obat.
+recap-06	Jadi, lain kali kamu memutar sebuah gasing,
+recap-07	ingatlah bahwa di dalam udara di sekitarmu, miliaran molekul juga sedang berputar.
+recap-08	Hanya saja, mereka berputar mengikuti tangga yang ditulis oleh mekanika kuantum.
